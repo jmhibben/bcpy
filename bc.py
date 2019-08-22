@@ -1,8 +1,6 @@
-# from math import pow
-
 DIGITS = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
 
-class Convert(object):
+class Converter(object):
     def __init__(self, digits = DIGITS):
         # convert the value to a string
         self.value = ''
